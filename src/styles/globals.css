@@ -1,0 +1,27 @@
+html,
+body {
+    min-height: 100% !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#__next {
+    height: 100%;
+    width: 100%;
+    background: #1F2228;
+    position: absolute;
+}
+
+main {
+    height: calc(100vh - 40px);
+    display: flex;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.active {
+    color: #C4CBDA !important;
+}

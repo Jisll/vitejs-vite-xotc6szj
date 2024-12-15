@@ -1,0 +1,110 @@
+.container {
+    background: linear-gradient(to left, #24272e, #24272e);
+    border-style: solid;
+    border-color: #3c3c4a;
+    border-width: 0px 0px 2px 0px;
+    padding: 0px 14px 0px 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 38px;
+    position: relative;
+
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.controls {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.file,
+.edit,
+.view,
+.terminal {
+    color: #c4cbda;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    position: relative;
+
+    -webkit-user-select: none;
+    -webkit-app-region: no-drag;
+}
+
+.windowTitle {
+    color: #c4cbda;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    align-self: center;
+}
+
+.windowOptions {
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    transform: scale(0.95);
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    color: #9099AC;
+
+    transition: all 0.2s;
+
+    -webkit-user-select: none;
+    -webkit-app-region: no-drag;
+}
+
+.button:hover {
+    color: #C4CBDA;
+}
+
+.minimize {
+    background: currentColor;
+    border-radius: 5px;
+    flex-shrink: 0;
+    width: 12px;
+    height: 1px;
+    position: relative;
+}
+
+.minimize,
+.maximize,
+.exit {
+    stroke: currentColor;
+}

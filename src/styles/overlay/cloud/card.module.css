@@ -1,0 +1,111 @@
+.container {
+    width: 508px;
+    height: 136px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+}
+
+.left {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1 0 0;
+    align-self: stretch;
+    overflow: hidden;
+}
+
+.left .title {
+    width: 100%;
+    color: #C4CBDA;
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.left .properties {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1 0 0;
+}
+
+.left .properties .property {
+    display: flex;
+    padding: 1px 0px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.left .properties .property .variable {
+    color: rgba(196, 203, 218, 0.75);
+    font-family: var(--font-poppins);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.left .properties .property .value {
+    width: 64%;
+    color: #9099AC;
+    font-family: var(--font-poppins);
+    font-size: 11px;
+    font-style: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.left .buttons {
+    display: flex;
+    padding: 1px 0px;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.left .buttons .button {
+    display: flex;
+    padding: 2.5px 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05);
+    color: #9099AC;
+    text-align: center;
+    font-family: var(--font-poppins);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    transition: background 0.2s;
+}
+
+.left .buttons .button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.left .buttons .button:active {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.right {
+    width: 50%;
+    border-radius: 6px;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 10% 100%);
+    opacity: 0.75;
+}

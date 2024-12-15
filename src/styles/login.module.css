@@ -1,0 +1,219 @@
+.container {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3c3c4a;
+    border-width: 2px;
+    padding: 25px;
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    min-width: 280px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 434 534%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cmask id=%22b%22 x=%220%22 y=%220%22 width=%22434%22 height=%22534%22%3E%3Cpath fill=%22url(%23a)%22 d=%22M0 0h434v534H0z%22%2F%3E%3C%2Fmask%3E%3Cg style=%22transform-origin:center center%22 stroke=%22%234c4e7266%22 stroke-width=%22.534%22 mask=%22url(%23b)%22%3E%3Cpath fill=%22none%22 d=%22M0 0h21.7v21.7H0zM21.7 0h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22%234c4e7212%22 d=%22M43.4 0h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e7247%22 d=%22M65.1 0h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e7227%22 d=%22M86.8 0h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 0h21.7v21.7h-21.7zM130.2 0h21.7v21.7h-21.7zM151.9 0h21.7v21.7h-21.7zM173.6 0h21.7v21.7h-21.7zM195.3 0H217v21.7h-21.7zM217 0h21.7v21.7H217zM238.7 0h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722b%22 d=%22M260.4 0h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721e%22 d=%22M282.1 0h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 0h21.7v21.7h-21.7zM325.5 0h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725e%22 d=%22M347.2 0h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M368.9 0h21.7v21.7h-21.7zM390.6 0h21.7v21.7h-21.7zM412.3 0H434v21.7h-21.7zM0 21.7h21.7v21.7H0zM21.7 21.7h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22%234c4e7205%22 d=%22M43.4 21.7h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22none%22 d=%22M65.1 21.7h21.7v21.7H65.1zM86.8 21.7h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 21.7h21.7v21.7h-21.7zM130.2 21.7h21.7v21.7h-21.7zM151.9 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7245%22 d=%22M173.6 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M195.3 21.7H217v21.7h-21.7zM217 21.7h21.7v21.7H217zM238.7 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7222%22 d=%22M260.4 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M282.1 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723b%22 d=%22M303.8 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M325.5 21.7h21.7v21.7h-21.7zM347.2 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725b%22 d=%22M368.9 21.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 21.7h21.7v21.7h-21.7zM412.3 21.7H434v21.7h-21.7zM0 43.4h21.7v21.7H0zM21.7 43.4h21.7v21.7H21.7zM43.4 43.4h21.7v21.7H43.4zM65.1 43.4h21.7v21.7H65.1zM86.8 43.4h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e7216%22 d=%22M108.5 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7233%22 d=%22M130.2 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 43.4h21.7v21.7h-21.7zM173.6 43.4h21.7v21.7h-21.7zM195.3 43.4H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722f%22 d=%22M217 43.4h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22%234c4e7241%22 d=%22M238.7 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M260.4 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e724a%22 d=%22M282.1 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725a%22 d=%22M325.5 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M347.2 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7216%22 d=%22M368.9 43.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 43.4h21.7v21.7h-21.7zM412.3 43.4H434v21.7h-21.7zM0 65.1h21.7v21.7H0zM21.7 65.1h21.7v21.7H21.7zM43.4 65.1h21.7v21.7H43.4zM65.1 65.1h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e7235%22 d=%22M86.8 65.1h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 65.1h21.7v21.7h-21.7zM130.2 65.1h21.7v21.7h-21.7zM151.9 65.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e724f%22 d=%22M173.6 65.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M195.3 65.1H217v21.7h-21.7zM217 65.1h21.7v21.7H217zM238.7 65.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7256%22 d=%22M260.4 65.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7226%22 d=%22M282.1 65.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 65.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722b%22 d=%22M325.5 65.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M347.2 65.1h21.7v21.7h-21.7zM368.9 65.1h21.7v21.7h-21.7zM390.6 65.1h21.7v21.7h-21.7zM412.3 65.1H434v21.7h-21.7zM0 86.8h21.7v21.7H0zM21.7 86.8h21.7v21.7H21.7zM43.4 86.8h21.7v21.7H43.4zM65.1 86.8h21.7v21.7H65.1zM86.8 86.8h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e724f%22 d=%22M108.5 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M130.2 86.8h21.7v21.7h-21.7zM151.9 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7245%22 d=%22M173.6 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M195.3 86.8H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7227%22 d=%22M217 86.8h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723c%22 d=%22M260.4 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7232%22 d=%22M282.1 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7251%22 d=%22M303.8 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7256%22 d=%22M325.5 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7261%22 d=%22M347.2 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721c%22 d=%22M368.9 86.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 86.8h21.7v21.7h-21.7zM412.3 86.8H434v21.7h-21.7zM0 108.5h21.7v21.7H0zM21.7 108.5h21.7v21.7H21.7zM43.4 108.5h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e7251%22 d=%22M65.1 108.5h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22none%22 d=%22M86.8 108.5h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e7202%22 d=%22M108.5 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7229%22 d=%22M130.2 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7250%22 d=%22M173.6 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M195.3 108.5H217v21.7h-21.7zM217 108.5h21.7v21.7H217zM238.7 108.5h21.7v21.7h-21.7zM260.4 108.5h21.7v21.7h-21.7zM282.1 108.5h21.7v21.7h-21.7zM303.8 108.5h21.7v21.7h-21.7zM325.5 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725b%22 d=%22M347.2 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M368.9 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721c%22 d=%22M390.6 108.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M412.3 108.5H434v21.7h-21.7zM0 130.2h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22%234c4e7237%22 d=%22M21.7 130.2h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M43.4 130.2h21.7v21.7H43.4zM65.1 130.2h21.7v21.7H65.1zM86.8 130.2h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7245%22 d=%22M130.2 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722d%22 d=%22M151.9 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M173.6 130.2h21.7v21.7h-21.7zM195.3 130.2H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7219%22 d=%22M217 130.2h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22%234c4e720e%22 d=%22M238.7 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M260.4 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7256%22 d=%22M282.1 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e724c%22 d=%22M303.8 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723e%22 d=%22M325.5 130.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M347.2 130.2h21.7v21.7h-21.7zM368.9 130.2h21.7v21.7h-21.7zM390.6 130.2h21.7v21.7h-21.7zM412.3 130.2H434v21.7h-21.7zM0 151.9h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22%234c4e721c%22 d=%22M21.7 151.9h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22%234c4e7220%22 d=%22M43.4 151.9h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22none%22 d=%22M65.1 151.9h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e7202%22 d=%22M86.8 151.9h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e7209%22 d=%22M108.5 151.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7202%22 d=%22M130.2 151.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 151.9h21.7v21.7h-21.7zM173.6 151.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723a%22 d=%22M195.3 151.9H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723c%22 d=%22M217 151.9h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 151.9h21.7v21.7h-21.7zM260.4 151.9h21.7v21.7h-21.7zM282.1 151.9h21.7v21.7h-21.7zM303.8 151.9h21.7v21.7h-21.7zM325.5 151.9h21.7v21.7h-21.7zM347.2 151.9h21.7v21.7h-21.7zM368.9 151.9h21.7v21.7h-21.7zM390.6 151.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e720a%22 d=%22M412.3 151.9H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 173.6h21.7v21.7H0zM21.7 173.6h21.7v21.7H21.7zM43.4 173.6h21.7v21.7H43.4zM65.1 173.6h21.7v21.7H65.1zM86.8 173.6h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 173.6h21.7v21.7h-21.7zM130.2 173.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721c%22 d=%22M151.9 173.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M173.6 173.6h21.7v21.7h-21.7zM195.3 173.6H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7218%22 d=%22M217 173.6h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22%234c4e723a%22 d=%22M238.7 173.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723d%22 d=%22M260.4 173.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7234%22 d=%22M282.1 173.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 173.6h21.7v21.7h-21.7zM325.5 173.6h21.7v21.7h-21.7zM347.2 173.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7217%22 d=%22M368.9 173.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 173.6h21.7v21.7h-21.7zM412.3 173.6H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725c%22 d=%22M0 195.3h21.7V217H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M21.7 195.3h21.7V217H21.7zM43.4 195.3h21.7V217H43.4zM65.1 195.3h21.7V217H65.1zM86.8 195.3h21.7V217H86.8z%22%2F%3E%3Cpath fill=%22%234c4e7246%22 d=%22M108.5 195.3h21.7V217h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M130.2 195.3h21.7V217h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725d%22 d=%22M151.9 195.3h21.7V217h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M173.6 195.3h21.7V217h-21.7zM195.3 195.3H217V217h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7256%22 d=%22M217 195.3h21.7V217H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 195.3h21.7V217h-21.7zM260.4 195.3h21.7V217h-21.7zM282.1 195.3h21.7V217h-21.7zM303.8 195.3h21.7V217h-21.7zM325.5 195.3h21.7V217h-21.7zM347.2 195.3h21.7V217h-21.7zM368.9 195.3h21.7V217h-21.7zM390.6 195.3h21.7V217h-21.7zM412.3 195.3H434V217h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e720c%22 d=%22M0 217h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M21.7 217h21.7v21.7H21.7zM43.4 217h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e720a%22 d=%22M65.1 217h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22none%22 d=%22M86.8 217h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 217h21.7v21.7h-21.7zM130.2 217h21.7v21.7h-21.7zM151.9 217h21.7v21.7h-21.7zM173.6 217h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7258%22 d=%22M195.3 217H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725b%22 d=%22M217 217h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 217h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7230%22 d=%22M260.4 217h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M282.1 217h21.7v21.7h-21.7zM303.8 217h21.7v21.7h-21.7zM325.5 217h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e720a%22 d=%22M347.2 217h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M368.9 217h21.7v21.7h-21.7zM390.6 217h21.7v21.7h-21.7zM412.3 217H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7236%22 d=%22M0 238.7h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22%234c4e7233%22 d=%22M21.7 238.7h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M43.4 238.7h21.7v21.7H43.4zM65.1 238.7h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e7227%22 d=%22M86.8 238.7h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722e%22 d=%22M130.2 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 238.7h21.7v21.7h-21.7zM173.6 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725b%22 d=%22M195.3 238.7H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M217 238.7h21.7v21.7H217zM238.7 238.7h21.7v21.7h-21.7zM260.4 238.7h21.7v21.7h-21.7zM282.1 238.7h21.7v21.7h-21.7zM303.8 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7210%22 d=%22M325.5 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7263%22 d=%22M347.2 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725d%22 d=%22M368.9 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 238.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7220%22 d=%22M412.3 238.7H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e720b%22 d=%22M0 260.4h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M21.7 260.4h21.7v21.7H21.7zM43.4 260.4h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e7264%22 d=%22M65.1 260.4h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22none%22 d=%22M86.8 260.4h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 260.4h21.7v21.7h-21.7zM130.2 260.4h21.7v21.7h-21.7zM151.9 260.4h21.7v21.7h-21.7zM173.6 260.4h21.7v21.7h-21.7zM195.3 260.4H217v21.7h-21.7zM217 260.4h21.7v21.7H217zM238.7 260.4h21.7v21.7h-21.7zM260.4 260.4h21.7v21.7h-21.7zM282.1 260.4h21.7v21.7h-21.7zM303.8 260.4h21.7v21.7h-21.7zM325.5 260.4h21.7v21.7h-21.7zM347.2 260.4h21.7v21.7h-21.7zM368.9 260.4h21.7v21.7h-21.7zM390.6 260.4h21.7v21.7h-21.7zM412.3 260.4H434v21.7h-21.7zM0 282.1h21.7v21.7H0zM21.7 282.1h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22%234c4e7233%22 d=%22M43.4 282.1h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e725b%22 d=%22M65.1 282.1h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22none%22 d=%22M86.8 282.1h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 282.1h21.7v21.7h-21.7zM130.2 282.1h21.7v21.7h-21.7zM151.9 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721c%22 d=%22M173.6 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M195.3 282.1H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723a%22 d=%22M217 282.1h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 282.1h21.7v21.7h-21.7zM260.4 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e724d%22 d=%22M282.1 282.1h21.7v21.7h-21.7zM303.8 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M325.5 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7255%22 d=%22M347.2 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725d%22 d=%22M368.9 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 282.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722f%22 d=%22M412.3 282.1H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e724c%22 d=%22M0 303.8h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M21.7 303.8h21.7v21.7H21.7zM43.4 303.8h21.7v21.7H43.4zM65.1 303.8h21.7v21.7H65.1zM86.8 303.8h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 303.8h21.7v21.7h-21.7zM130.2 303.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721c%22 d=%22M151.9 303.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M173.6 303.8h21.7v21.7h-21.7zM195.3 303.8H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7255%22 d=%22M217 303.8h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 303.8h21.7v21.7h-21.7zM260.4 303.8h21.7v21.7h-21.7zM282.1 303.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7215%22 d=%22M303.8 303.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M325.5 303.8h21.7v21.7h-21.7zM347.2 303.8h21.7v21.7h-21.7zM368.9 303.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7212%22 d=%22M390.6 303.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M412.3 303.8H434v21.7h-21.7zM0 325.5h21.7v21.7H0zM21.7 325.5h21.7v21.7H21.7zM43.4 325.5h21.7v21.7H43.4zM65.1 325.5h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e724d%22 d=%22M86.8 325.5h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e7228%22 d=%22M108.5 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7220%22 d=%22M130.2 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7227%22 d=%22M173.6 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7259%22 d=%22M195.3 325.5H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M217 325.5h21.7v21.7H217zM238.7 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7209%22 d=%22M260.4 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M282.1 325.5h21.7v21.7h-21.7zM303.8 325.5h21.7v21.7h-21.7zM325.5 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7219%22 d=%22M347.2 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M368.9 325.5h21.7v21.7h-21.7zM390.6 325.5h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7204%22 d=%22M412.3 325.5H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 347.2h21.7v21.7H0zM21.7 347.2h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22%234c4e7264%22 d=%22M43.4 347.2h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22none%22 d=%22M65.1 347.2h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e7237%22 d=%22M86.8 347.2h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7241%22 d=%22M130.2 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7205%22 d=%22M151.9 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M173.6 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723f%22 d=%22M195.3 347.2H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M217 347.2h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22%234c4e720c%22 d=%22M238.7 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7266%22 d=%22M260.4 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7220%22 d=%22M282.1 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 347.2h21.7v21.7h-21.7zM325.5 347.2h21.7v21.7h-21.7zM347.2 347.2h21.7v21.7h-21.7zM368.9 347.2h21.7v21.7h-21.7zM390.6 347.2h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721b%22 d=%22M412.3 347.2H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7217%22 d=%22M0 368.9h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22%234c4e7266%22 d=%22M21.7 368.9h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M43.4 368.9h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e725c%22 d=%22M65.1 368.9h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e721f%22 d=%22M86.8 368.9h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7208%22 d=%22M130.2 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7226%22 d=%22M173.6 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721e%22 d=%22M195.3 368.9H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7227%22 d=%22M217 368.9h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725f%22 d=%22M260.4 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722a%22 d=%22M282.1 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7234%22 d=%22M325.5 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M347.2 368.9h21.7v21.7h-21.7zM368.9 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7241%22 d=%22M390.6 368.9h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M412.3 368.9H434v21.7h-21.7zM0 390.6h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22%234c4e7232%22 d=%22M21.7 390.6h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22%234c4e725f%22 d=%22M43.4 390.6h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22none%22 d=%22M65.1 390.6h21.7v21.7H65.1zM86.8 390.6h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e722a%22 d=%22M108.5 390.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M130.2 390.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e720b%22 d=%22M151.9 390.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M173.6 390.6h21.7v21.7h-21.7zM195.3 390.6H217v21.7h-21.7zM217 390.6h21.7v21.7H217zM238.7 390.6h21.7v21.7h-21.7zM260.4 390.6h21.7v21.7h-21.7zM282.1 390.6h21.7v21.7h-21.7zM303.8 390.6h21.7v21.7h-21.7zM325.5 390.6h21.7v21.7h-21.7zM347.2 390.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721f%22 d=%22M368.9 390.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 390.6h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7210%22 d=%22M412.3 390.6H434v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M0 412.3h21.7V434H0zM21.7 412.3h21.7V434H21.7z%22%2F%3E%3Cpath fill=%22%234c4e7241%22 d=%22M43.4 412.3h21.7V434H43.4z%22%2F%3E%3Cpath fill=%22none%22 d=%22M65.1 412.3h21.7V434H65.1zM86.8 412.3h21.7V434H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7261%22 d=%22M130.2 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7236%22 d=%22M173.6 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722f%22 d=%22M195.3 412.3H217V434h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M217 412.3h21.7V434H217zM238.7 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7262%22 d=%22M260.4 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M282.1 412.3h21.7V434h-21.7zM303.8 412.3h21.7V434h-21.7zM325.5 412.3h21.7V434h-21.7zM347.2 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725f%22 d=%22M368.9 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723b%22 d=%22M390.6 412.3h21.7V434h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M412.3 412.3H434V434h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7229%22 d=%22M0 434h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22none%22 d=%22M21.7 434h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22%234c4e7221%22 d=%22M43.4 434h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e7255%22 d=%22M65.1 434h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22%234c4e7256%22 d=%22M86.8 434h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e7264%22 d=%22M108.5 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M130.2 434h21.7v21.7h-21.7zM151.9 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721a%22 d=%22M173.6 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7255%22 d=%22M195.3 434H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7221%22 d=%22M217 434h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7202%22 d=%22M260.4 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7260%22 d=%22M282.1 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7235%22 d=%22M303.8 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7220%22 d=%22M325.5 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M347.2 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722d%22 d=%22M368.9 434h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M390.6 434h21.7v21.7h-21.7zM412.3 434H434v21.7h-21.7zM0 455.7h21.7v21.7H0zM21.7 455.7h21.7v21.7H21.7zM43.4 455.7h21.7v21.7H43.4z%22%2F%3E%3Cpath fill=%22%234c4e7246%22 d=%22M65.1 455.7h21.7v21.7H65.1z%22%2F%3E%3Cpath fill=%22none%22 d=%22M86.8 455.7h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 455.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7239%22 d=%22M130.2 455.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 455.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e722b%22 d=%22M173.6 455.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7221%22 d=%22M195.3 455.7H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725d%22 d=%22M217 455.7h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 455.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723c%22 d=%22M260.4 455.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7242%22 d=%22M282.1 455.7h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 455.7h21.7v21.7h-21.7zM325.5 455.7h21.7v21.7h-21.7zM347.2 455.7h21.7v21.7h-21.7zM368.9 455.7h21.7v21.7h-21.7zM390.6 455.7h21.7v21.7h-21.7zM412.3 455.7H434v21.7h-21.7zM0 477.4h21.7v21.7H0z%22%2F%3E%3Cpath fill=%22%234c4e724d%22 d=%22M21.7 477.4h21.7v21.7H21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M43.4 477.4h21.7v21.7H43.4zM65.1 477.4h21.7v21.7H65.1zM86.8 477.4h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22%234c4e7204%22 d=%22M108.5 477.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M130.2 477.4h21.7v21.7h-21.7zM151.9 477.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e724d%22 d=%22M173.6 477.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M195.3 477.4H217v21.7h-21.7zM217 477.4h21.7v21.7H217zM238.7 477.4h21.7v21.7h-21.7zM260.4 477.4h21.7v21.7h-21.7zM282.1 477.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e723f%22 d=%22M303.8 477.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M325.5 477.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e721b%22 d=%22M347.2 477.4h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M368.9 477.4h21.7v21.7h-21.7zM390.6 477.4h21.7v21.7h-21.7zM412.3 477.4H434v21.7h-21.7zM0 499.1h21.7v21.7H0zM21.7 499.1h21.7v21.7H21.7zM43.4 499.1h21.7v21.7H43.4zM65.1 499.1h21.7v21.7H65.1zM86.8 499.1h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7234%22 d=%22M130.2 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M151.9 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7244%22 d=%22M173.6 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M195.3 499.1H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7242%22 d=%22M217 499.1h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22none%22 d=%22M238.7 499.1h21.7v21.7h-21.7zM260.4 499.1h21.7v21.7h-21.7zM282.1 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e720b%22 d=%22M303.8 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M325.5 499.1h21.7v21.7h-21.7zM347.2 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e720e%22 d=%22M368.9 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e725e%22 d=%22M390.6 499.1h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M412.3 499.1H434v21.7h-21.7zM0 520.8h21.7v21.7H0zM21.7 520.8h21.7v21.7H21.7zM43.4 520.8h21.7v21.7H43.4zM65.1 520.8h21.7v21.7H65.1zM86.8 520.8h21.7v21.7H86.8z%22%2F%3E%3Cpath fill=%22none%22 d=%22M108.5 520.8h21.7v21.7h-21.7zM130.2 520.8h21.7v21.7h-21.7zM151.9 520.8h21.7v21.7h-21.7zM173.6 520.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7236%22 d=%22M195.3 520.8H217v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7211%22 d=%22M217 520.8h21.7v21.7H217z%22%2F%3E%3Cpath fill=%22%234c4e7231%22 d=%22M238.7 520.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M260.4 520.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7232%22 d=%22M282.1 520.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M303.8 520.8h21.7v21.7h-21.7zM325.5 520.8h21.7v21.7h-21.7zM347.2 520.8h21.7v21.7h-21.7zM368.9 520.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22%234c4e7202%22 d=%22M390.6 520.8h21.7v21.7h-21.7z%22%2F%3E%3Cpath fill=%22none%22 d=%22M412.3 520.8H434v21.7h-21.7z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CradialGradient id=%22a%22%3E%3Cstop offset=%2250%25%22 stop-color=%22%23fff%22 stop-opacity=%220%22%2F%3E%3Cstop offset=%221%22 stop-color=%22%23fff%22 stop-opacity=%22.5%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3C%2Fsvg%3E"), linear-gradient(to left, #1f2228, #1f2228);
+}
+
+.container.active {
+    display: flex;
+    animation: bounce 0.5s;
+}
+
+.title {
+    color: #c4cbda;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+.description {
+    color: #9099ac;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.separator {
+    background: #3c3c4a;
+    border-radius: 8px;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 2.5px;
+    position: relative;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.input {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.name {
+    color: #c4cbda;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+}
+
+.input input {
+    background: #24272e;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3c3c4a;
+    border-width: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+}
+
+.input input::placeholder {
+    color: #9099ac;
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+}
+
+.input input:focus {
+    border-color: #3c3c4a;
+    outline: none;
+}
+
+.group {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    color: #9099ac;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+}
+
+.link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button {
+    background: #24272e;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3c3c4a;
+    border-width: 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    height: 38px;
+    position: relative;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    color: #ffffff;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+
+    transition: transform 0.2s;
+}
+
+.button:active {
+    transform: scale(0.975);
+}
+
+.bottom {
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    font-family: var(--font-poppins);
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    color: #9099ac;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.blue {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #4d7fe9;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 25px;
+    }
+
+    .description, .name {
+        display: none;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(0.75);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

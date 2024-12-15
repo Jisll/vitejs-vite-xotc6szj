@@ -1,0 +1,88 @@
+.container,
+.container * {
+  box-sizing: border-box;
+}
+
+.container {
+    width: 54px;
+    background: #24272e;
+    border-style: solid;
+    border-color: #3c3c4a;
+    border-width: 0px 2px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.top {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.highlight {
+    background: #c4cbda;
+    border-radius: 3px;
+    flex-shrink: 0;
+    width: 2px;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+    
+    transition: all 0.2s;
+}
+
+.button {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+
+    color: #9099AC;
+
+    transition: all 0.2s;
+}
+
+.active {
+    color: #C4CBDA;
+}
+
+.bottom {
+    width: 54px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottom .button:last-child {
+    margin-left: -17.5px;
+}
+
+.fill {
+    fill: currentColor;
+}
+
+.stroke {
+    stroke: currentColor;
+}

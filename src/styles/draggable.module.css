@@ -1,0 +1,56 @@
+.container {
+    background: #24272e;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #3c3c4a;
+    border-width: 2px;
+    padding: 11px 10px 11px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    row-gap: 0px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+}
+
+.handle {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    cursor: move;
+}
+
+.draggable {
+    fill: white;
+}
+
+.button {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    cursor: pointer;
+}

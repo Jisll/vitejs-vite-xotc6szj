@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.header {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+
+    color: #9099AC;
+}
+
+.header.active {
+    color: #c4cbda;
+}
+
+
+.icon {
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    overflow: hidden;
+    rotate: -90deg;
+
+    transition: all 0.2s ease;
+}
+
+.header.active .icon {
+    rotate: 0deg;
+}
+
+.svg {
+    fill: currentColor;
+
+    transition: all 0.2s ease;
+}
+
+.title {
+    color: currentColor;
+    display: block;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: var(--font-poppins);
+    font-size: 13px;
+    overflow: hidden;
+    position: relative;
+
+    transition: color 0.2s ease;
+}

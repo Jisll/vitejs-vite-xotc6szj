@@ -1,0 +1,16 @@
+.container {
+    height: calc(100vh - 40px) !important;
+
+    position: relative !important;
+}
+
+.left {
+    height: calc(100vh - 40px) !important;
+
+    background: #24272E;
+    border-right: 2px solid #3C3C4A;
+}
+
+.right {
+    height: calc(100vh - 40px) !important;
+}
